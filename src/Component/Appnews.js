@@ -10,8 +10,7 @@ const Appnews = () => {
   
     const handleSearch = async () => {
       const response = await axios.get(
-        `
-        https://newsapi.org/v2/everything?q=tesla&from=2023-04-09&sortBy=publishedAt&apiKey=814bbb4170e840ac86cd415a9134e13f`
+        `https://newsapi.org/v2/everything?q=tesla&from=2023-04-09&sortBy=publishedAt&apiKey=814bbb4170e840ac86cd415a9134e13f`
       );
       setNews(response.data.articles);
     };

@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.input{
+  width: 500px;
+  height: 40px;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding-left: 20px;
+  margin-right: 20px;
+  
+}
+
+button{
+  margin-left: 20px;
+}
+
+.card{
+  width: 200px;
+  height: 100px;
+}
+
+.img{
+  height: 150px;
+  width: 600px;
+}
